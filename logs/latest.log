@@ -1,88 +1,101 @@
-[17:50:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:51:02] [ServerMain/INFO]: Loaded 1174 recipes
-[17:51:03] [ServerMain/INFO]: Loaded 1271 advancements
-[17:51:03] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[17:51:03] [Server thread/INFO]: Loading properties
-[17:51:04] [Server thread/INFO]: This server is running Paper version git-Paper-409 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9e171ef)
-[17:51:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:51:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:51:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:51:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:51:06] [Server thread/INFO]: Default game type: SURVIVAL
-[17:51:06] [Server thread/INFO]: Generating keypair
-[17:51:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:51:06] [Server thread/INFO]: Using default channel type
-[17:51:06] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:51:06] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:51:06] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[17:51:08] [Server thread/WARN]: [floodgate] th_TH is not a supported Floodgate language.
-[17:51:08] [Server thread/INFO]: [floodgate] Took 1,280ms to boot Floodgate
-[17:51:08] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.2-SNAPSHOT
-[17:51:09] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:51:09] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:51:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:51:09] [Server thread/INFO]: Preparing level "world"
-[17:51:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:51:11] [Server thread/INFO]: Time elapsed: 289 ms
-[17:51:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:51:11] [Server thread/INFO]: Time elapsed: 63 ms
-[17:51:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:51:11] [Server thread/INFO]: Time elapsed: 36 ms
-[17:51:11] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[17:51:12] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
-[17:51:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:51:12] [Server thread/INFO]: [Geyser-Spigot] 
-[17:51:12] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.2-SNAPSHOT (git-master-19c6648)
-[17:51:12] [Server thread/INFO]: [Geyser-Spigot] 
-[17:51:12] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:51:20] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[17:51:20] [Server thread/INFO]: [Geyser-Spigot] Done (8.427s)! Run /geyser help for help!
-[17:51:20] [Server thread/INFO]: Running delayed init tasks
-[17:51:20] [Server thread/INFO]: Done (17.039s)! For help, type "help"
-[17:51:21] [Server thread/INFO]: Timings Reset
-[17:52:25] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /118.172.178.154:56322 tried to connect!
-[17:52:27] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ThanabadeeBank
-[17:52:27] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ThanabadeeBank (logged in as: ThanabadeeBank) has connected to the Java server
-[17:52:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank joined (UUID: 00000000-0000-0000-0009-01fac3abf6ce)
-[17:52:29] [Server thread/INFO]: .ThanabadeeBank joined the game
-[17:52:29] [Server thread/INFO]: .ThanabadeeBank[/118.172.178.154:0] logged in with entity id 144 at ([world]65.57243648968009, 75.0, -80.21295491449689)
-[17:52:43] [Async Chat Thread - #1/INFO]: [Not Secure] <.ThanabadeeBank> usgehe
-[17:52:46] [Async Chat Thread - #1/INFO]: [Not Secure] <.ThanabadeeBank> นกก่กร
-[17:52:49] [Async Chat Thread - #0/INFO]: [Not Secure] <.ThanabadeeBank> ำนกาาำ
-[17:52:51] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ThanabadeeBank has disconnected from the Java server because of Bedrock client disconnected
-[17:52:51] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank disconnected
-[17:52:51] [Server thread/INFO]: .ThanabadeeBank lost connection: Disconnected
-[17:52:51] [Server thread/INFO]: .ThanabadeeBank left the game
-[17:52:58] [Server thread/INFO]: Stopping the server
-[17:52:58] [Server thread/INFO]: Stopping server
-[17:52:58] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
-[17:52:58] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:52:58] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:52:58] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[17:52:58] [Server thread/INFO]: Saving players
-[17:52:58] [Server thread/INFO]: Saving worlds
-[17:52:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:52:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:52:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:52:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:52:58] [WebSocketConnectReadThread-57/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[17:53:00] [Server thread/INFO]: [ChunkHolderManager] Saved 740 block chunks, 740 entity chunks, 0 poi chunks in world 'world' in 2.25s
-[17:53:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:53:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:53:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:53:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:53:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:53:02] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1.19s
-[17:53:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:53:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:53:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:53:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:53:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:53:02] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.37s
-[17:53:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:53:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:53:02] [Server thread/INFO]: Flushing Chunk IO
-[17:53:02] [Server thread/INFO]: Closing Thread Pool
-[17:53:02] [Server thread/INFO]: Closing Server
+[00:19:51] [User Authenticator #21/INFO]: UUID of player Kxo_0x is 0a3a8046-4958-4445-a8bc-3a087a0a7f15
+[00:19:51] [Server thread/INFO]: Kxo_0x joined the game
+[00:19:51] [Server thread/INFO]: Kxo_0x[/223.204.163.246:57570] logged in with entity id 360783 at ([world]727.486990284809, 64.0, -1599.6558641718063)
+[00:30:54] [Server thread/INFO]: .ChampKnorkai821 has made the advancement [Diamonds!]
+[00:31:03] [Async Chat Thread - #151/INFO]: <Kxo_0x> ผมไปขุดมาละ555555
+[00:31:15] [Async Chat Thread - #151/INFO]: [Not Secure] <.ChampKnorkai821> คุนเอาป่าวๆ
+[00:31:23] [Async Chat Thread - #152/INFO]: [Not Secure] <.ChampKnorkai821> ผมไม่ได้ใช่ประโยช
+[00:31:52] [Async Chat Thread - #152/INFO]: <Kxo_0x> ได้พี่แชม
+[00:32:13] [Async Chat Thread - #152/INFO]: [Not Secure] <.ChampKnorkai821> ผมขอ2เมดไปทำดาบนะ
+[00:32:20] [Async Chat Thread - #152/INFO]: <Kxo_0x> ได้หมด
+[00:40:34] [User Authenticator #22/INFO]: UUID of player IamBankty is a29bf186-62ae-4ffd-9aba-1f18cb648174
+[00:40:35] [Server thread/INFO]: IamBankty joined the game
+[00:40:35] [Server thread/INFO]: IamBankty[/192.168.0.201:62201] logged in with entity id 365313 at ([world]110.11774693954412, 69.0, -2040.7439776727306)
+[00:40:59] [Async Chat Thread - #153/INFO]: <IamBankty> เล่นทั้
+[00:41:05] [Async Chat Thread - #153/INFO]: <IamBankty> เล่นทั้งวัน
+[00:41:07] [Async Chat Thread - #153/INFO]: <Kxo_0x> stt
+[00:41:09] [Async Chat Thread - #153/INFO]: <IamBankty> 465746745645
+[00:41:14] [Async Chat Thread - #153/INFO]: <Kxo_0x> จริง
+[00:41:23] [Async Chat Thread - #153/INFO]: <Kxo_0x> งานการไม้่ทำ
+[00:41:30] [Async Chat Thread - #153/INFO]: [Not Secure] <.ChampKnorkai821> 5555
+[00:41:48] [Server thread/INFO]: IamBankty lost connection: Disconnected
+[00:41:48] [Server thread/INFO]: IamBankty left the game
+[00:59:09] [Server thread/INFO]: Kxo_0x has made the advancement [Hot Stuff]
+[01:09:40] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] ChampKnorkai821 has disconnected from the Java server because of Bedrock client disconnected
+[01:09:40] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 disconnected
+[01:09:40] [Server thread/INFO]: .ChampKnorkai821 lost connection: Disconnected
+[01:09:40] [Server thread/INFO]: .ChampKnorkai821 left the game
+[01:10:00] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /125.26.131.142:54518 tried to connect!
+[01:10:01] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ChampKnorkai821
+[01:10:01] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ChampKnorkai821 (logged in as: ChampKnorkai821) has connected to the Java server
+[01:10:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 joined (UUID: 00000000-0000-0000-0009-01facb2641ad)
+[01:10:02] [Server thread/INFO]: .ChampKnorkai821 joined the game
+[01:10:02] [Server thread/INFO]: .ChampKnorkai821[/125.26.131.142:0] logged in with entity id 372495 at ([world]275.41797, 73.0, -1788.4717)
+[01:19:58] [Server thread/INFO]: Kxo_0x lost connection: Disconnected
+[01:19:58] [Server thread/INFO]: Kxo_0x left the game
+[01:38:38] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ChampKnorkai821 has disconnected from the Java server because of Bedrock client disconnected
+[01:38:38] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 disconnected
+[01:38:38] [Server thread/INFO]: .ChampKnorkai821 lost connection: Disconnected
+[01:38:38] [Server thread/INFO]: .ChampKnorkai821 left the game
+[01:38:59] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /125.26.131.142:54518 tried to connect!
+[01:39:00] [nioEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ChampKnorkai821
+[01:39:00] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ChampKnorkai821 (logged in as: ChampKnorkai821) has connected to the Java server
+[01:39:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 joined (UUID: 00000000-0000-0000-0009-01facb2641ad)
+[01:39:01] [Server thread/INFO]: .ChampKnorkai821 joined the game
+[01:39:01] [Server thread/INFO]: .ChampKnorkai821[/125.26.131.142:0] logged in with entity id 377641 at ([world]237.3723, 68.0, -1817.8108)
+[01:41:46] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ChampKnorkai821 has disconnected from the Java server because of Bedrock client disconnected
+[01:41:46] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 disconnected
+[01:41:46] [Server thread/INFO]: .ChampKnorkai821 lost connection: Disconnected
+[01:41:46] [Server thread/INFO]: .ChampKnorkai821 left the game
+[02:00:42] [WebSocketConnectReadThread-1699/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[02:00:56] [WebSocketConnectReadThread-1700/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[02:01:05] [WebSocketConnectReadThread-1701/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+[03:01:28] [WebSocketConnectReadThread-1722/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:01:46] [WebSocketConnectReadThread-1723/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:01:55] [WebSocketConnectReadThread-1724/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+[03:02:04] [WebSocketConnectReadThread-1725/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:03:00] [WebSocketConnectReadThread-1730/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:03:14] [WebSocketConnectReadThread-1731/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:03:26] [WebSocketConnectReadThread-1732/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:03:35] [WebSocketConnectReadThread-1733/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+[08:44:34] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /118.172.178.66:60822 tried to connect!
+[08:44:34] [nioEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username ThanabadeeBank
+[08:44:34] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] ThanabadeeBank (logged in as: ThanabadeeBank) has connected to the Java server
+[08:44:35] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank joined (UUID: 00000000-0000-0000-0009-01fac3abf6ce)
+[08:44:35] [Server thread/INFO]: .ThanabadeeBank joined the game
+[08:44:35] [Server thread/INFO]: .ThanabadeeBank[/118.172.178.66:0] logged in with entity id 378374 at ([world]258.24542, 70.0, -1811.4575)
+[08:45:09] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank disconnected
+[08:45:09] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] ThanabadeeBank has disconnected from the Java server because of Bedrock client disconnected
+[08:45:09] [Server thread/INFO]: .ThanabadeeBank lost connection: Disconnected
+[08:45:09] [Server thread/INFO]: .ThanabadeeBank left the game
+[08:45:35] [Server thread/INFO]: Stopping the server
+[08:45:35] [Server thread/INFO]: Stopping server
+[08:45:35] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
+[08:45:35] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[08:45:35] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[08:45:35] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[08:45:35] [Server thread/INFO]: Saving players
+[08:45:36] [Server thread/INFO]: Saving worlds
+[08:45:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:45:36] [WebSocketConnectReadThread-1734/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Saved 135 block chunks, 97 entity chunks, 0 poi chunks in world 'world' in 0.29s
+[08:45:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:45:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:45:36] [Server thread/INFO]: [ChunkHolderManager] Saved 352 block chunks, 175 entity chunks, 0 poi chunks in world 'world_nether' in 0.46s
+[08:45:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:45:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:45:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:45:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:45:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:45:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[08:45:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:45:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:45:37] [Server thread/INFO]: Flushing Chunk IO
+[08:45:37] [Server thread/INFO]: Closing Thread Pool
+[08:45:37] [Server thread/INFO]: Closing Server
