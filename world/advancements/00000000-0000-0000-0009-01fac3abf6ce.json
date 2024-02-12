@@ -8,13 +8,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:badlands": "2024-02-09 12:23:01 +0700",
+      "minecraft:flower_forest": "2024-02-12 15:29:57 +0700",
       "minecraft:beach": "2024-02-09 19:56:32 +0700",
       "minecraft:desert": "2024-02-09 12:16:24 +0700",
+      "minecraft:sunflower_plains": "2024-02-12 15:30:09 +0700",
       "minecraft:river": "2024-02-09 12:49:40 +0700",
       "minecraft:lukewarm_ocean": "2024-02-09 19:54:26 +0700",
       "minecraft:stony_shore": "2024-02-09 12:22:53 +0700",
       "minecraft:savanna": "2024-02-09 19:56:50 +0700",
       "minecraft:wooded_badlands": "2024-02-09 12:16:08 +0700",
+      "minecraft:plains": "2024-02-12 15:30:05 +0700",
       "minecraft:warm_ocean": "2024-02-09 12:49:43 +0700"
     },
     "done": false
@@ -468,6 +471,18 @@
       "minecraft:nether_wastes": "2024-02-09 21:23:42 +0700"
     },
     "done": false
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2024-02-11 15:56:29 +0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-02-11 15:56:29 +0700"
+    },
+    "done": true
   },
   "DataVersion": 3700
 }
