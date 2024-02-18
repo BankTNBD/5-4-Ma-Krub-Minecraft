@@ -1,1 +1,1 @@
-D:\PaperMC\plugins\DiscordSRV\config.yml
+./plugins/DiscordSRV/config.yml
