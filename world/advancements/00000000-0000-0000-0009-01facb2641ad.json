@@ -282,7 +282,8 @@
       "minecraft:spider": "2024-02-09 20:50:57 +0700",
       "minecraft:zombie": "2024-02-09 20:45:00 +0700",
       "minecraft:creeper": "2024-02-15 23:32:07 +0700",
-      "minecraft:drowned": "2024-02-09 21:28:24 +0700"
+      "minecraft:drowned": "2024-02-09 21:28:24 +0700",
+      "minecraft:zombie_villager": "2024-02-17 18:20:22 +0700"
     },
     "done": false
   },
@@ -547,6 +548,7 @@
       "cooked_chicken": "2024-02-10 22:36:46 +0700",
       "cooked_cod": "2024-02-10 10:32:01 +0700",
       "cooked_salmon": "2024-02-10 13:42:53 +0700",
+      "pumpkin_pie": "2024-02-17 13:50:25 +0700",
       "carrot": "2024-02-10 14:03:07 +0700"
     },
     "done": false
@@ -3475,6 +3477,12 @@
   "minecraft:recipes/misc/red_dye_from_tulip": {
     "criteria": {
       "has_red_flower": "2024-02-17 11:56:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-02-18 00:56:24 +0700"
     },
     "done": true
   },

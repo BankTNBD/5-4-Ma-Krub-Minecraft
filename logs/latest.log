@@ -1,251 +1,124 @@
-[02:48:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:48:17] [ServerMain/INFO]: Loaded 1174 recipes
-[02:48:18] [ServerMain/INFO]: Loaded 1271 advancements
-[02:48:19] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[02:48:19] [Server thread/INFO]: Loading properties
-[02:48:19] [Server thread/INFO]: This server is running Paper version git-Paper-409 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9e171ef)
-[02:48:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:48:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:48:20] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[08:06:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08:06:38] [ServerMain/INFO]: Loaded 1174 recipes
+[08:06:39] [ServerMain/INFO]: Loaded 1271 advancements
+[08:06:40] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[08:06:40] [Server thread/INFO]: Loading properties
+[08:06:40] [Server thread/INFO]: This server is running Paper version git-Paper-409 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9e171ef)
+[08:06:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:06:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:06:41] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:48:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[02:48:21] [Server thread/INFO]: Default game type: SURVIVAL
-[02:48:21] [Server thread/INFO]: Generating keypair
-[02:48:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:48:21] [Server thread/INFO]: Using default channel type
-[02:48:21] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[02:48:21] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[02:48:22] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[02:48:23] [Server thread/WARN]: [floodgate] th_TH is not a supported Floodgate language.
-[02:48:23] [Server thread/INFO]: [floodgate] Took 1,463ms to boot Floodgate
-[02:48:23] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.4.0
-[02:48:23] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.2-SNAPSHOT
-[02:48:24] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[02:48:24] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[02:48:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:48:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:48:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:48:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:48:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:48:24] [Server thread/INFO]: Preparing level "world"
-[02:48:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:48:26] [Server thread/INFO]: Time elapsed: 487 ms
-[02:48:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:48:26] [Server thread/INFO]: Time elapsed: 61 ms
-[02:48:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:48:26] [Server thread/INFO]: Time elapsed: 38 ms
-[02:48:26] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[02:48:27] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.4.0
-[02:48:27] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
-[02:48:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:48:27] [Server thread/INFO]: [Geyser-Spigot] 
-[02:48:27] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.2-SNAPSHOT (git-master-19c6648)
-[02:48:27] [Server thread/INFO]: [Geyser-Spigot] 
-[02:48:27] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:48:36] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[02:48:36] [Server thread/INFO]: [Geyser-Spigot] Done (9.627s)! Run /geyser help for help!
-[02:48:37] [Server thread/INFO]: Running delayed init tasks
-[02:48:37] [Server thread/INFO]: Done (18.426s)! For help, type "help"
-[02:48:37] [Server thread/INFO]: Timings Reset
-[03:02:15] [WebSocketConnectReadThread-87/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
-[03:02:29] [WebSocketConnectReadThread-88/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
-[03:02:38] [WebSocketConnectReadThread-89/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
-[03:12:12] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /118.172.178.177:61752 tried to connect!
-[03:12:13] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ThanabadeeBank
-[03:12:13] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ThanabadeeBank (logged in as: ThanabadeeBank) has connected to the Java server
-[03:12:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank joined (UUID: 00000000-0000-0000-0009-01fac3abf6ce)
-[03:12:14] [Server thread/INFO]: .ThanabadeeBank joined the game
-[03:12:14] [Server thread/INFO]: .ThanabadeeBank[/118.172.178.177:0] logged in with entity id 122 at ([world]186.30001, 55.0, -2038.7196)
-[03:14:09] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ThanabadeeBank has disconnected from the Java server because of Bedrock client disconnected
-[03:14:09] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank disconnected
-[03:14:09] [Server thread/INFO]: .ThanabadeeBank lost connection: Disconnected
-[03:14:09] [Server thread/INFO]: .ThanabadeeBank left the game
-[09:47:16] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /118.172.178.177:61752 tried to connect!
-[09:47:17] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ThanabadeeBank
-[09:47:17] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ThanabadeeBank (logged in as: ThanabadeeBank) has connected to the Java server
-[09:47:18] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank joined (UUID: 00000000-0000-0000-0009-01fac3abf6ce)
-[09:47:18] [Server thread/INFO]: .ThanabadeeBank joined the game
-[09:47:18] [Server thread/INFO]: .ThanabadeeBank[/118.172.178.177:0] logged in with entity id 1039 at ([world]228.30001, 70.0, -2052.1953)
-[09:49:01] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ThanabadeeBank has disconnected from the Java server because of Bedrock client disconnected
-[09:49:01] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank disconnected
-[09:49:01] [Server thread/INFO]: .ThanabadeeBank lost connection: Disconnected
-[09:49:01] [Server thread/INFO]: .ThanabadeeBank left the game
-[09:49:02] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /49.230.141.133:48389 tried to connect!
-[09:49:03] [nioEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username TestierFish5351
-[09:49:03] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] TestierFish5351 (logged in as: TestierFish5351) has connected to the Java server
-[09:49:04] [Server thread/INFO]: [floodgate] Floodgate player logged in as .TestierFish5351 joined (UUID: 00000000-0000-0000-0009-01f69f6f76a5)
-[09:49:04] [Server thread/INFO]: .TestierFish5351 joined the game
-[09:49:04] [Server thread/INFO]: .TestierFish5351[/49.230.141.133:0] logged in with entity id 1910 at ([world]201.52924, 66.0, -1877.0704)
-[10:03:06] [defaultEventLoopGroup-7-4/INFO]: [Geyser-Spigot] TestierFish5351 has disconnected from the Java server because of Bedrock client disconnected
-[10:03:06] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .TestierFish5351 disconnected
-[10:03:06] [Server thread/INFO]: .TestierFish5351 lost connection: Disconnected
-[10:03:06] [Server thread/INFO]: .TestierFish5351 left the game
-[10:03:37] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /49.230.141.133:48389 tried to connect!
-[10:03:38] [nioEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username TestierFish5351
-[10:03:38] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] TestierFish5351 (logged in as: TestierFish5351) has connected to the Java server
-[10:03:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as .TestierFish5351 joined (UUID: 00000000-0000-0000-0009-01f69f6f76a5)
-[10:03:39] [Server thread/INFO]: .TestierFish5351 joined the game
-[10:03:39] [Server thread/INFO]: .TestierFish5351[/49.230.141.133:0] logged in with entity id 4344 at ([world]215.9411, 91.0, -1759.69999)
-[10:07:33] [defaultEventLoopGroup-7-1/INFO]: [Geyser-Spigot] TestierFish5351 has disconnected from the Java server because of Bedrock client disconnected
-[10:07:33] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .TestierFish5351 disconnected
-[10:07:33] [Server thread/INFO]: .TestierFish5351 lost connection: Disconnected
-[10:07:33] [Server thread/INFO]: .TestierFish5351 left the game
-[11:18:58] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /1.0.210.217:50569 tried to connect!
-[11:18:59] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ChampKnorkai821
-[11:18:59] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ChampKnorkai821 (logged in as: ChampKnorkai821) has connected to the Java server
-[11:19:00] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 joined (UUID: 00000000-0000-0000-0009-01facb2641ad)
-[11:19:00] [Server thread/INFO]: .ChampKnorkai821 joined the game
-[11:19:00] [Server thread/INFO]: .ChampKnorkai821[/1.0.210.217:0] logged in with entity id 5256 at ([world]287.69999, 76.0, -1784.9171)
-[11:26:12] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 disconnected
-[11:26:12] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ChampKnorkai821 has disconnected from the Java server because of Bedrock client disconnected
-[11:26:12] [Server thread/INFO]: .ChampKnorkai821 lost connection: Disconnected
-[11:26:12] [Server thread/INFO]: .ChampKnorkai821 left the game
-[11:26:45] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /1.0.210.217:50569 tried to connect!
-[11:26:46] [nioEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ChampKnorkai821
-[11:26:46] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ChampKnorkai821 (logged in as: ChampKnorkai821) has connected to the Java server
-[11:26:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 joined (UUID: 00000000-0000-0000-0009-01facb2641ad)
-[11:26:47] [Server thread/INFO]: .ChampKnorkai821 joined the game
-[11:26:47] [Server thread/INFO]: .ChampKnorkai821[/1.0.210.217:0] logged in with entity id 7234 at ([world]94.69999, 63.0, -1977.69999)
-[11:58:01] [defaultEventLoopGroup-7-3/INFO]: [Geyser-Spigot] ChampKnorkai821 has disconnected from the Java server because of Bedrock client disconnected
-[11:58:01] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .ChampKnorkai821 disconnected
-[11:58:01] [Server thread/INFO]: .ChampKnorkai821 lost connection: Disconnected
-[11:58:01] [Server thread/INFO]: .ChampKnorkai821 left the game
-[12:28:01] [Server thread/INFO]: --------- Help: Index ---------------------------
-[12:28:01] [Server thread/INFO]: Use /help [n] to get page n of help.
-[12:28:01] [Server thread/INFO]: Aliases: Lists command aliases
-[12:28:01] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[12:28:01] [Server thread/INFO]: floodgate: All commands for floodgate
-[12:28:01] [Server thread/INFO]: Geyser-Spigot: All commands for Geyser-Spigot
-[12:28:01] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[12:28:01] [Server thread/INFO]: sleep-most: All commands for sleep-most
-[12:28:01] [Server thread/INFO]: /advancement: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /attribute: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /ban: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /banlist: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /callback: ClickEvent callback
-[12:28:01] [Server thread/INFO]: /clear: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /clone: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /damage: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /data: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /datapack: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /debug: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /deop: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /effect: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /enchant: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /execute: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /experience: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /fill: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /fillbiome: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /floodgate: 
-[12:28:01] [Server thread/INFO]: /forceload: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /function: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /fwhitelist: 
-[12:28:01] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /geyser: The main command for Geyser.
-[12:28:01] [Server thread/INFO]: /give: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /help: Shows the help menu
-[12:28:01] [Server thread/INFO]: /item: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /jfr: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /kick: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /kill: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /linkaccount: 
-[12:28:01] [Server thread/INFO]: /list: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /locate: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /loot: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /me: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /msg: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /mspt: View server tick times
-[12:28:01] [Server thread/INFO]: /op: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /paper: Paper related commands
-[12:28:01] [Server thread/INFO]: /pardon: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /particle: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /perf: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /place: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /playsound: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[12:28:01] [Server thread/INFO]: /random: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /recipe: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[12:28:01] [Server thread/INFO]: /restart: Restarts the server
-[12:28:01] [Server thread/INFO]: /return: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /ride: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /save-all: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /save-off: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /save-on: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /say: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /schedule: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /seed: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /setblock: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /sleepmost: open the sleepmost help menu
-[12:28:01] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /spectate: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /spigot: Spigot related commands
-[12:28:01] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /stop: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /summon: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /tag: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /team: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /teleport: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /tell: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /tick: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /time: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[12:28:01] [Server thread/INFO]: /title: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /tm: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /tp: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[12:28:01] [Server thread/INFO]: /trigger: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /unlinkaccount: 
-[12:28:01] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[12:28:01] [Server thread/INFO]: /w: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /weather: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[12:28:01] [Server thread/INFO]: /xp: A Mojang provided command.
-[12:28:14] [Server thread/INFO]: Stopping the server
-[12:28:15] [Server thread/INFO]: Stopping server
-[12:28:15] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
-[12:28:15] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[12:28:15] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[12:28:15] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.4.0
-[12:28:15] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[12:28:15] [Server thread/INFO]: Saving players
-[12:28:15] [Server thread/INFO]: Saving worlds
-[12:28:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 25 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[12:28:15] [WebSocketConnectReadThread-271/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[12:28:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:28:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Saved 15 block chunks, 51 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
-[12:28:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:28:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:28:15] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[12:28:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:28:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:28:15] [Server thread/INFO]: Flushing Chunk IO
-[12:28:15] [Server thread/INFO]: Closing Thread Pool
-[12:28:15] [Server thread/INFO]: Closing Server
+[08:06:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[08:06:42] [Server thread/INFO]: Default game type: SURVIVAL
+[08:06:42] [Server thread/INFO]: Generating keypair
+[08:06:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:06:42] [Server thread/INFO]: Using default channel type
+[08:06:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[08:06:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[08:06:43] [Server thread/INFO]: [DiscordSRV] Unknown user language TH.
+[08:06:43] [Server thread/INFO]: [DiscordSRV] If you fluently speak TH as well as English, see the GitHub repo to translate it!
+[08:06:43] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[08:06:45] [Server thread/WARN]: [floodgate] th_TH is not a supported Floodgate language.
+[08:06:45] [Server thread/INFO]: [floodgate] Took 1,843ms to boot Floodgate
+[08:06:45] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.4.0
+[08:06:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.2-SNAPSHOT
+[08:06:46] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[08:06:46] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[08:06:46] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
+[08:06:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:06:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:06:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:06:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:06:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:06:46] [Server thread/INFO]: Preparing level "world"
+[08:06:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:06:48] [Server thread/INFO]: Time elapsed: 459 ms
+[08:06:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[08:06:49] [Server thread/INFO]: Time elapsed: 53 ms
+[08:06:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[08:06:49] [Server thread/INFO]: Time elapsed: 44 ms
+[08:06:49] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[08:06:49] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.4.0
+[08:06:50] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
+[08:06:50] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
+[08:06:50] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:06:50] [Server thread/INFO]: [Geyser-Spigot] 
+[08:06:50] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.2-SNAPSHOT (git-master-19c6648)
+[08:06:50] [Server thread/INFO]: [Geyser-Spigot] 
+[08:06:50] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[08:06:53] [pool-21-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
+[08:06:54] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[08:06:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[08:06:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:5/4มาครัฟ(1036844413114142771)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:นักเลงคีย์บอร์ด(1036844413659389984)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:โลกแห่งเวทย์มนต์(1036964721351462923)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ส่งคลิปฉาว(1057192960078397540)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:โรงงานผลิตมีม(1061912556123459664)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:อ้ายพวกติดเกม(1036963553678196846)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ขอลอกการบ้านโหน่ย(1036965160012759050)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:⚔rumble-royale(1120205303267475516)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:📚ม่อน-guide(1120220640729899069)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐣ม่อน1(1120221136047841300)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐣ม่อน2(1120221161113014362)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐣ม่อน3(1120221190347305000)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐣ม่อน4(1120229171008913458)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐥ม่อนม่อน(1120244621302317187)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐥ม่อนม่อน2(1120247188509950084)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🐥ม่อนม่อน3(1120247216737632296)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:🦚ม่อน-battle(1120229308351401994)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:test(1042068059306860616)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-admin(1208378242852200468)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:minecraft-console(1208567604046995506)
+[08:06:57] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel TC:minecraft-console(1208567604046995506)
+[08:07:00] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[08:07:00] [Server thread/INFO]: [Geyser-Spigot] Done (9.794s)! Run /geyser help for help!
+[08:07:01] [Server thread/INFO]: Running delayed init tasks
+[08:07:01] [Server thread/INFO]: Done (20.931s)! For help, type "help"
+[08:07:01] [Server thread/INFO]: Timings Reset
+[08:07:02] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 1/1 guilds (0 cancelled)
+[08:30:40] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /118.172.178.153:58817 tried to connect!
+[08:30:40] [nioEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ThanabadeeBank
+[08:30:40] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ThanabadeeBank (logged in as: ThanabadeeBank) has connected to the Java server
+[08:30:41] [Server thread/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank joined (UUID: 00000000-0000-0000-0009-01fac3abf6ce)
+[08:30:42] [Server thread/INFO]: .ThanabadeeBank joined the game
+[08:30:42] [Server thread/INFO]: .ThanabadeeBank[/118.172.178.153:0] logged in with entity id 112 at ([world]200.11642, 63.0, -2040.5597)
+[08:33:42] [defaultEventLoopGroup-7-2/INFO]: [Geyser-Spigot] ThanabadeeBank has disconnected from the Java server because of Bedrock client disconnected
+[08:33:42] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .ThanabadeeBank disconnected
+[08:33:42] [Server thread/INFO]: .ThanabadeeBank lost connection: Disconnected
+[08:33:42] [Server thread/INFO]: .ThanabadeeBank left the game
+[10:15:04] [Server thread/INFO]: Stopping the server
+[10:15:04] [Server thread/INFO]: Stopping server
+[10:15:04] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[10:15:04] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 797ms
+[10:15:04] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
+[10:15:04] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[10:15:05] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[10:15:05] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.4.0
+[10:15:05] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[10:15:05] [Server thread/INFO]: Saving players
+[10:15:05] [Server thread/INFO]: Saving worlds
+[10:15:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[10:15:05] [WebSocketConnectReadThread-93/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 23 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[10:15:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:15:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 46 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
+[10:15:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:15:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[10:15:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[10:15:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:15:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:15:05] [Server thread/INFO]: Flushing Chunk IO
+[10:15:05] [Server thread/INFO]: Closing Thread Pool
+[10:15:05] [Server thread/INFO]: Closing Server
