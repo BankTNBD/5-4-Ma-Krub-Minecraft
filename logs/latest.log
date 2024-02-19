@@ -1,89 +1,577 @@
-[17:22:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:22:48] [ServerMain/INFO]: Loaded 1174 recipes
-[17:22:48] [ServerMain/INFO]: Loaded 1271 advancements
-[17:22:49] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[17:22:49] [Server thread/INFO]: Loading properties
-[17:22:49] [Server thread/INFO]: This server is running Paper version git-Paper-409 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 9e171ef)
-[17:22:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:22:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:22:51] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:22:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:22:51] [Server thread/INFO]: Default game type: SURVIVAL
-[17:22:51] [Server thread/INFO]: Generating keypair
-[17:22:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:22:52] [Server thread/INFO]: Using default channel type
-[17:22:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:22:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:22:52] [Server thread/INFO]: [DiscordSRV] Unknown user language TH.
-[17:22:52] [Server thread/INFO]: [DiscordSRV] If you fluently speak TH as well as English, see the GitHub repo to translate it!
-[17:22:53] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[17:22:54] [Server thread/WARN]: [floodgate] th_TH is not a supported Floodgate language.
-[17:22:54] [Server thread/INFO]: [floodgate] Took 1,216ms to boot Floodgate
-[17:22:54] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.4.0
-[17:22:54] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.2-SNAPSHOT
-[17:22:55] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:22:55] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:22:55] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.27.0
-[17:22:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:22:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:22:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:22:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:22:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:22:55] [Server thread/INFO]: Preparing level "world"
-[17:22:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:22:57] [Server thread/INFO]: Time elapsed: 366 ms
-[17:22:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:22:57] [Server thread/INFO]: Time elapsed: 66 ms
-[17:22:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:22:57] [Server thread/INFO]: Time elapsed: 54 ms
-[17:22:57] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[17:22:58] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.4.0
-[17:22:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
-[17:22:58] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.27.0
-[17:22:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:22:58] [Server thread/INFO]: [Geyser-Spigot] 
-[17:22:58] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.2-SNAPSHOT (git-master-19c6648)
-[17:22:58] [Server thread/INFO]: [Geyser-Spigot] 
-[17:22:58] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:22:59] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
-[17:23:01] [pool-21-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (6405e850eea61a4b9bf4f0d0cbb80fe20b3cfb90)
-[17:23:07] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[17:23:07] [Server thread/INFO]: [Geyser-Spigot] Done (9.314s)! Run /geyser help for help!
-[17:23:08] [Server thread/INFO]: Running delayed init tasks
-[17:23:08] [Server thread/INFO]: Done (18.639s)! For help, type "help"
-[17:23:08] [Server thread/INFO]: Timings Reset
-[17:23:08] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
-[17:23:15] [Server thread/INFO]: Stopping the server
-[17:23:15] [Server thread/INFO]: Stopping server
-[17:23:15] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
-[17:23:15] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[17:23:15] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[17:23:15] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.4.0
-[17:23:15] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
-[17:23:16] [Server thread/INFO]: Saving players
-[17:23:16] [Server thread/INFO]: Saving worlds
-[17:23:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:23:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:23:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:23:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:23:16] [WebSocketConnectReadThread-66/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 2.34s
-[17:23:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:23:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:23:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:23:19] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 1.40s
-[17:23:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:23:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:23:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:23:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:23:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:23:20] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.58s
-[17:23:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:23:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[17:23:20] [Server thread/INFO]: Flushing Chunk IO
-[17:23:20] [Server thread/INFO]: Closing Thread Pool
-[17:23:23] [Server thread/INFO]: Closing Server
+[02:01:11] [WebSocketConnectReadThread-2282/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.8.8 failed to resolve discord.com
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[02:01:22] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[02:01:22] [WebSocketConnectReadThread-2284/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[02:01:29] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 2s
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.4.4 failed to resolve discord.com
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[02:01:32] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[02:01:36] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[03:01:34] [WebSocketConnectReadThread-2359/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.1.1.1 failed to resolve discord.com
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:01:45] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:01:51] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 2s
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.0.0.1 failed to resolve discord.com
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:01:55] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:01:57] [WebSocketConnectReadThread-2361/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.0.0.1 failed to resolve discord.com
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:02:03] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:02:05] [WebSocketConnectReadThread-2362/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.8.8 failed to resolve discord.com
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:02:05] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.8.8 failed to resolve discord.com
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:02:13] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:46:17] [WebSocketConnectReadThread-2425/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:46:24] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 2s
+[03:46:25] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: No route to host: no further information
+[03:46:25] [pool-24-thread-1/WARN]: java.lang.RuntimeException: java.util.concurrent.ExecutionException: github.scarsz.discordsrv.dependencies.jda.api.exceptions.ErrorResponseException: -1: java.net.NoRouteToHostException
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//me.scarsz.jdaappender.ChannelLoggingHandler.updateMessage(ChannelLoggingHandler.java:249)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//me.scarsz.jdaappender.ChannelLoggingHandler.flush(ChannelLoggingHandler.java:146)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//me.scarsz.jdaappender.ChannelLoggingHandler.lambda$schedule$0(ChannelLoggingHandler.java:57)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:46:25] [pool-24-thread-1/WARN]: Caused by: java.util.concurrent.ExecutionException: github.scarsz.discordsrv.dependencies.jda.api.exceptions.ErrorResponseException: -1: java.net.NoRouteToHostException
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//me.scarsz.jdaappender.ChannelLoggingHandler.updateMessage(ChannelLoggingHandler.java:241)
+[03:46:25] [pool-24-thread-1/WARN]: 	... 8 more
+[03:46:25] [pool-24-thread-1/WARN]: Caused by: github.scarsz.discordsrv.dependencies.jda.api.exceptions.ErrorResponseException: -1: java.net.NoRouteToHostException
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.exceptions.ErrorResponseException.create(ErrorResponseException.java:185)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.requests.Request.onFailure(Request.java:117)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.handleResponse(RestActionImpl.java:270)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.requests.Request.handleResponse(Request.java:259)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:254)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:252)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:46:25] [pool-24-thread-1/WARN]: 	... 3 more
+[03:46:25] [pool-24-thread-1/WARN]: Caused by: java.net.NoRouteToHostException: No route to host: no further information
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:633)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.platform.Platform.connectSocket(Platform.java:128)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RealConnection.connect(RealConnection.java:167)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:46:25] [pool-24-thread-1/WARN]: 	... 10 more
+[03:46:25] [pool-24-thread-1/WARN]: Caused by: github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.exceptions.ContextException.here(ContextException.java:54)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.requests.Request.<init>(Request.java:71)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.requests.RestFuture.<init>(RestFuture.java:36)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.RestActionImpl.submit(RestActionImpl.java:209)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.api.requests.RestAction.submit(RestAction.java:694)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//me.scarsz.jdaappender.ChannelLoggingHandler.updateMessage(ChannelLoggingHandler.java:241)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//me.scarsz.jdaappender.ChannelLoggingHandler.flush(ChannelLoggingHandler.java:146)
+[03:46:25] [pool-24-thread-1/WARN]: 	at DiscordSRV-Build-1.27.0.jar//me.scarsz.jdaappender.ChannelLoggingHandler.lambda$schedule$0(ChannelLoggingHandler.java:57)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[03:46:25] [pool-24-thread-1/WARN]: 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[03:46:25] [pool-24-thread-1/WARN]: 	... 3 more
+[03:46:26] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: No route to host: no further information
+[03:46:26] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 4s
+[03:46:29] [WebSocketConnectReadThread-2428/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:46:30] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: No route to host: no further information
+[03:46:30] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 8s
+[03:46:38] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: No route to host: no further information
+[03:46:38] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 16s
+[03:46:43] [WebSocketConnectReadThread-2429/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:46:53] [WebSocketConnectReadThread-2430/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:46:54] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] There was an I/O error while executing a REST request: No route to host: no further information
+[03:46:54] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 32s
+[03:47:06] [WebSocketConnectReadThread-2431/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:47:14] [WebSocketConnectReadThread-2432/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+[03:47:27] [WebSocketConnectReadThread-2433/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.4.4 failed to resolve discord.com
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:47:36] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.1.1.1 failed to resolve discord.com
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:47:46] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:47:49] [WebSocketConnectReadThread-2434/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 1.0.0.1 failed to resolve discord.com
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:47:56] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] DNS server 8.8.8.8 failed to resolve discord.com
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException: Receive timed out, Connect timed out
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.util.MultipleIoException.throwIfRequired(MultipleIoException.java:57)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:79)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.source.NetworkDataSource.query(NetworkDataSource.java:34)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:250)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:234)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:372)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.minidns.AbstractDnsClient.query(AbstractDnsClient.java:341)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookupPublic(DiscordSRV.java:661)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.DiscordSRV$2.lookup(DiscordSRV.java:656)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:264)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.okhttp3.RealCall.execute(RealCall.java:93)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:201)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:141)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.Requester.execute(Requester.java:124)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at DiscordSRV-Build-1.27.0.jar//github.scarsz.discordsrv.dependencies.jda.internal.requests.ratelimit.BotRateLimiter$Bucket.run(BotRateLimiter.java:478)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[03:48:06] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[03:48:07] [DiscordSRV - JDA Rate Limit/ERROR]: [DiscordSRV] [JDA] DNS resolution failed: All DNS resolvers failed to resolve hostname discord.com. Not good.
+[03:48:07] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Reconnect failed! Next attempt in 64s
+[03:48:14] [WebSocketConnectReadThread-2435/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:48:39] [WebSocketConnectReadThread-2437/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:48:51] [WebSocketConnectReadThread-2438/WARN]: [Geyser-Spigot] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. No such host is known (api.geysermc.org)
+[03:49:12] [JDA MainWS-ReadThread/WARN]: [DiscordSRV] [JDA] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[03:51:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[03:51:21] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished (Re)Loading!
+[05:10:50] [Server thread/INFO]: Stopping server
+[05:10:50] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.27.0
+[05:10:52] [DiscordSRV - Shutdown/INFO]: [DiscordSRV] Shutdown completed in 1824ms
+[05:10:52] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.2-SNAPSHOT
+[05:10:52] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[05:10:52] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[05:10:52] [Server thread/INFO]: [sleep-most] Disabling sleep-most v5.4.0
+[05:10:52] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b90-2886a71)
+[05:10:52] [Server thread/INFO]: Saving players
+[05:10:52] [Server thread/INFO]: Saving worlds
+[05:10:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 23 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[05:10:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:10:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:10:52] [WebSocketConnectReadThread-2439/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Saved 15 block chunks, 48 entity chunks, 0 poi chunks in world 'world_nether' in 0.07s
+[05:10:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:10:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:10:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[05:10:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:10:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:10:52] [Server thread/INFO]: Flushing Chunk IO
+[05:10:52] [Server thread/INFO]: Closing Thread Pool
+[05:10:52] [Server thread/INFO]: Closing Server
